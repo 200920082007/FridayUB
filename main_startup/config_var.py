@@ -41,14 +41,14 @@ class Config((object)):
     API_HASH = os.environ.get("API_HASH", None)
     BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
-    STRINGSESSION = os.environ.get("STRINGSESSION", None)
+    STRINGSESSION = os.environ.get("STRINGSESSION", BQAuBGfDOLqy1_Jplj_gcDwJKKQiFdUrl_5s25MCiVlFQwuIS5VvUjS95K1K9TooRL-XVYhG-ynq6rWdktSrEVlsivW7gDy8NURMpef3R1WGr1bN9cqXugBbmCxSuEnSlRvFg3PCTIF4lBO9xPx5UbnDqcJLJRM2EK9-HADb5BhSADzK2x9f2ytVMEzIW_jahn7NtU01TiYKuObpep1Bibu7ED5t1Vuw59zGICS5xQ93dmjtl6VAggSUTziElocXJqk3w-Vgm9diq7G8xU-AuXgGbCsAkhsNLfWgHbMbYz3UdglkGhmylRx43O8o45Yza6MIH5TSjW8t4n6Kmj6sa_VJdE0IogA)
     ASSISTANT_START_PIC = os.environ.get(
         "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
     )
     STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
     STRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
     STRINGSESSION_4 = os.environ.get("STRINGSESSION_4", None)
-    LOAD_UNOFFICIAL_PLUGINS = bool(strtobool(str(os.environ.get("LOAD_UNOFFICIAL_PLUGINS", False))))
+    LOAD_UNOFFICIAL_PLUGINS = bool(strtobool(str(os.environ.get("LOAD_UNOFFICIAL_PLUGINS", True))))
     PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", False)
     TZ = os.environ.get("TZ", "Asia/Kolkata")
     MONGO_DB = os.environ.get("MONGO_DB", None)
