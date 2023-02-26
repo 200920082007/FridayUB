@@ -6,7 +6,7 @@
 #
 # All rights reserved.
 
-FROM python:latest
+FROM python:3.10.10
 WORKDIR .
 ENV PYTHONUNBUFFERED=1
 COPY requirements.txt .
